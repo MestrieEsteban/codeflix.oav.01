@@ -1,13 +1,21 @@
+//( ͡° ͜ʖ ͡°)
 module.exports = function parseEnv(content)
 {
     
-
+    let output = {}
     let lines = content.split('\n')
+    
+    
     for(line of lines)
     {
-        
+        if(line.match(/^([\w]+)=(.+)/))
+        {
+            let key = line.split('=')
+            output[key[0]] = key[1]     
+        }
     }
 
-    console.log("Env File");
+    return JSON.stringify(output)
+
     
 }

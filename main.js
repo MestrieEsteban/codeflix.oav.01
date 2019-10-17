@@ -1,9 +1,11 @@
+//ლ(ಠ益ಠ)ლ
 const path = require('path')
 const fs = require('fs')
 const env = require('./parseEnv.js')
 const ini = require('./parseIni.js')
 
 const args = process.argv.slice(2);
+let uneDate = new Date();
 
 if(args.length !== 1)
 {
@@ -22,13 +24,17 @@ if(path.extname(filename) == '.ini')
     console.log('ini');
     
 }
-else if(path.extname(filename) == '.env')
+else if(path.extname(filename) == '.env') 
 {
     if (!fs.existsSync(filename)) {
         console.log('The file : ' + filename + ' does not exists.');
         process.exit(-1)
       }
-    console.log('env');
+    const content = fs.readFileSync(filename, "utf-8")
+    fs.writeFile('env.'+uneDate+'.json', env(content), 'utf8', (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+      });
 }
 else
 {
@@ -37,7 +43,5 @@ else
 }
 
 
-const content = fs.readFileSync(filename, "utf-8")
 
-console.log(content);
 
