@@ -5,7 +5,16 @@ const env = require('./parseEnv.js')
 const ini = require('./parseIni.js')
 
 const args = process.argv.slice(2);
-let uneDate = new Date();
+let annee = new Date().getFullYear()
+let day = new Date().getDay()
+let month = new Date().getMonth()
+let hours = new Date().getHours()
+let minutes = new Date().getMinutes()
+let seconds = new Date().getSeconds()
+
+let uneDate = annee+'-'+month+'-'+day+'-'+hours+'-'+'-'+minutes+'-'+seconds
+
+
 
 if(args.length !== 1)
 {
