@@ -6,15 +6,12 @@ module.exports = function parseIni(content) {
 
     for (line of lines) {
         i = []
-
-
         if (line.match(/^\[/)) {
 
             let key = line.split('[')
             output[key[1].replace(']\r', '')] = i
 
         }
-
         if (!line.match(/^;/)) {
             let key1 = line.split('=')
             i.push(output[key1[0]] = key1[1])
