@@ -26,11 +26,15 @@ const filename = args[0]
 
 if(path.extname(filename) == '.ini')
 {
-    if (!fs.existsSync(filename)) {
-        console.log('The file : ' + filename + ' does not exists.');
-        process.exit(-1)
-      }
-    console.log('ini');
+  if (!fs.existsSync(filename)) {
+    console.log('The file : ' + filename + ' does not exists.');
+    process.exit(-1)
+  }
+const content = fs.readFileSync(filename, "utf-8")
+fs.writeFile('ini.'+uneDate+'.json', ini(content), 'utf8', (err) => {
+    if (err) throw err;
+    console.log('The file has been saved!');
+  });
     
 }
 else if(path.extname(filename) == '.env') 
@@ -50,6 +54,7 @@ else
     console.log('The extension : ' + filename + ' is not .ini or .env.');
     process.exit(-1)
 }
+
 
 
 

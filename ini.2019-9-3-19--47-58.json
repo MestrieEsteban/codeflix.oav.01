@@ -1,0 +1,286 @@
+{
+	"PHP": [
+		null
+	],
+	"engine ": " On\r",
+	"short_open_tag ": " On\r",
+	"asp_tags ": " Off\r",
+	"precision    ": "  12\r",
+	"y2k_compliance ": " On\r",
+	"output_buffering ": " Off\r",
+	"zlib.output_compression ": " Off\r",
+	"implicit_flush ": " Off\r",
+	"unserialize_callback_func": "\r",
+	"serialize_precision ": " 100\r",
+	"safe_mode ": " Off\r",
+	"safe_mode_gid ": " Off\r",
+	"safe_mode_include_dir ": "\r",
+	"safe_mode_exec_dir ": "\r",
+	"safe_mode_allowed_env_vars ": " PHP_\r",
+	"safe_mode_protected_env_vars ": " LD_LIBRARY_PATH\r",
+	"disable_functions ": "\r",
+	"disable_classes ": "\r",
+	"expose_php ": " On\r",
+	"max_execution_time ": " 30     ; Maximum execution time of each script, in seconds\r",
+	"max_input_time ": " 60\t; Maximum amount of time each script may spend parsing request data\r",
+	"memory_limit ": " 128M      ; Maximum amount of memory a script may consume (8MB)\r",
+	"error_reporting  ": "  E_ALL\r",
+	"display_errors ": " Off\r",
+	"display_startup_errors ": " Off\r",
+	"log_errors ": " On\r",
+	"log_errors_max_len ": " 1024\r",
+	"ignore_repeated_errors ": " Off\r",
+	"ignore_repeated_source ": " Off\r",
+	"report_memleaks ": " On\r",
+	"track_errors ": " Off\r",
+	"error_log ": " \"/Applications/MAMP/logs/php_error.log\"\r",
+	"variables_order ": " \"EGPCS\"\r",
+	"register_globals ": " Off\r",
+	"register_argc_argv ": " On\r",
+	"post_max_size ": " 32M\r",
+	"gpc_order ": " \"GPC\"\r",
+	"magic_quotes_sybase ": " Off\r",
+	"auto_prepend_file ": "\r",
+	"auto_append_file ": "\r",
+	"default_mimetype ": " \"text/html\"\r",
+	"include_path ": " \".:/Applications/MAMP/bin/php/php5.4.20/lib/php\"\r",
+	"doc_root ": "\r",
+	"user_dir ": "\r",
+	"extension_dir ": " \"/Applications/MAMP/bin/php/php5.4.20/lib/php/extensions/no-debug-non-zts-20100525/\"\r",
+	"enable_dl ": " On\r",
+	"file_uploads ": " On\r",
+	"upload_tmp_dir ": " /Applications/MAMP/tmp/php\r",
+	"upload_max_filesize ": " 32M\r",
+	"allow_url_fopen ": " On\r",
+	"default_socket_timeout ": " 60\r",
+	"extension": "pdo_pgsql.so\r",
+	"Date": [
+		null
+	],
+	"date.timezone ": " \"Europe/Berlin\"\r",
+	"Syslog": [
+		null
+	],
+	"define_syslog_variables  ": " Off\r",
+	"mail function": [
+		null
+	],
+	"SMTP ": " localhost\r",
+	"smtp_port ": " 25\r",
+	"Java": [
+		null
+	],
+	"SQL": [
+		null
+	],
+	"sql.safe_mode ": " Off\r",
+	"ODBC": [
+		null
+	],
+	"odbc.allow_persistent ": " On\r",
+	"odbc.check_persistent ": " On\r",
+	"odbc.max_persistent ": " -1\r",
+	"odbc.max_links ": " -1\r",
+	"odbc.defaultlrl ": " 4096\r",
+	"odbc.defaultbinmode ": " 1\r",
+	"MySQL": [
+		null
+	],
+	"mysql.allow_persistent ": " On\r",
+	"mysql.max_persistent ": " -1\r",
+	"mysql.max_links ": " -1\r",
+	"mysql.default_port ": "\r",
+	"mysql.default_socket ": " /Applications/MAMP/tmp/mysql/mysql.sock\r",
+	"mysql.default_host ": "\r",
+	"mysql.default_user ": "\r",
+	"mysql.default_password ": "\r",
+	"mysql.connect_timeout ": " 60\r",
+	"mysql.trace_mode ": " Off\r",
+	"MySQLi": [
+		null
+	],
+	"mysqli.default_socket ": " /Applications/MAMP/tmp/mysql/mysql.sock\r",
+	"mSQL": [
+		null
+	],
+	"msql.allow_persistent ": " On\r",
+	"msql.max_persistent ": " -1\r",
+	"msql.max_links ": " -1\r",
+	"PostgresSQL": [
+		null
+	],
+	"pgsql.allow_persistent ": " On\r",
+	"pgsql.auto_reset_persistent ": " Off\r",
+	"pgsql.max_persistent ": " -1\r",
+	"pgsql.max_links ": " -1\r",
+	"pgsql.ignore_notice ": " 0\r",
+	"pgsql.log_notice ": " 0\r",
+	"Sybase": [
+		null
+	],
+	"sybase.allow_persistent ": " On\r",
+	"sybase.max_persistent ": " -1\r",
+	"sybase.max_links ": " -1\r",
+	"sybase.min_error_severity ": " 10\r",
+	"sybase.min_message_severity ": " 10\r",
+	"sybase.compatability_mode ": " Off\r",
+	"Sybase-CT": [
+		null
+	],
+	"sybct.allow_persistent ": " On\r",
+	"sybct.max_persistent ": " -1\r",
+	"sybct.max_links ": " -1\r",
+	"sybct.min_server_severity ": " 10\r",
+	"sybct.min_client_severity ": " 10\r",
+	"dbx": [
+		null
+	],
+	"dbx.colnames_case ": " \"unchanged\"\r",
+	"bcmath": [
+		null
+	],
+	"bcmath.scale ": " 0\r",
+	"browscap": [
+		null
+	],
+	"Informix": [
+		null
+	],
+	"ifx.default_host ": "\r",
+	"ifx.default_user ": "\r",
+	"ifx.default_password ": "\r",
+	"ifx.allow_persistent ": " On\r",
+	"ifx.max_persistent ": " -1\r",
+	"ifx.max_links ": " -1\r",
+	"ifx.textasvarchar ": " 0\r",
+	"ifx.byteasvarchar ": " 0\r",
+	"ifx.charasvarchar ": " 0\r",
+	"ifx.blobinfile ": " 0\r",
+	"ifx.nullformat ": " 0\r",
+	"Session": [
+		null
+	],
+	"session.save_handler ": " files\r",
+	"session.save_path ": " /Applications/MAMP/tmp/php\r",
+	"session.use_cookies ": " 1\r",
+	"session.name ": " PHPSESSID\r",
+	"session.auto_start ": " 0\r",
+	"session.cookie_lifetime ": " 0\r",
+	"session.cookie_path ": " /\r",
+	"session.cookie_domain ": "\r",
+	"session.serialize_handler ": " php\r",
+	"session.gc_probability ": " 1\r",
+	"session.gc_divisor     ": " 100\r",
+	"session.gc_maxlifetime ": " 1440\r",
+	"session.bug_compat_42 ": " 1\r",
+	"session.bug_compat_warn ": " 1\r",
+	"session.referer_check ": "\r",
+	"session.entropy_length ": " 0\r",
+	"session.entropy_file ": "\r",
+	"session.cache_limiter ": " nocache\r",
+	"session.cache_expire ": " 180\r",
+	"session.use_trans_sid ": " 0\r",
+	"url_rewriter.tags ": " \"a",
+	"MSSQL": [
+		null
+	],
+	"mssql.allow_persistent ": " On\r",
+	"mssql.max_persistent ": " -1\r",
+	"mssql.max_links ": " -1\r",
+	"mssql.min_error_severity ": " 10\r",
+	"mssql.min_message_severity ": " 10\r",
+	"mssql.compatability_mode ": " Off\r",
+	"mssql.secure_connection ": " Off\r",
+	"Assertion": [
+		null
+	],
+	"Ingres II": [
+		null
+	],
+	"ingres.allow_persistent ": " On\r",
+	"ingres.max_persistent ": " -1\r",
+	"ingres.max_links ": " -1\r",
+	"ingres.default_database ": "\r",
+	"ingres.default_user ": "\r",
+	"ingres.default_password ": "\r",
+	"Verisign Payflow Pro": [
+		null
+	],
+	"pfpro.defaulthost ": " \"test-payflow.verisign.com\"\r",
+	"pfpro.defaultport ": " 443\r",
+	"pfpro.defaulttimeout ": " 30\r",
+	"Sockets": [
+		null
+	],
+	"sockets.use_system_read ": " On\r",
+	"com": [
+		null
+	],
+	"Printer": [
+		null
+	],
+	"mbstring": [
+		null
+	],
+	"FrontBase": [
+		null
+	],
+	"Crack": [
+		null
+	],
+	"exif": [
+		null
+	],
+	"  eaccelerator.shm_size": "\"16\"\r",
+	"  eaccelerator.cache_dir": "\"/Applications/MAMP/tmp/eaccelerator\"\r",
+	"  eaccelerator.enable": "\"1\"\r",
+	"  eaccelerator.optimizer": "\"1\"\r",
+	"  eaccelerator.check_mtime": "\"1\"\r",
+	"  eaccelerator.debug": "\"0\"\r",
+	"  eaccelerator.filter": "\"\"\r",
+	"  eaccelerator.shm_max": "\"0\"\r",
+	"  eaccelerator.shm_ttl": "\"0\"\r",
+	"  eaccelerator.shm_prune_period": "\"0\"\r",
+	"  eaccelerator.shm_only": "\"0\"\r",
+	"  eaccelerator.compress": "\"1\"\r",
+	"  eaccelerator.compress_level": "\"9\"\r",
+	"  eaccelerator.allowed_admin_path": "\"/Applications/MAMP/bin/mamp\"\r",
+	"xcache-common": [
+		null
+	],
+	"xcache.admin": [
+		null
+	],
+	"xcache.admin.user ": " \"xcache\"\r",
+	"xcache.admin.pass ": " \"8e6867a5d05144cf4761d6481fc674a8\"\r",
+	"xcache": [
+		null
+	],
+	"xcache.shm_scheme ": "        \"mmap\"\r",
+	"xcache.size  ": "                64M\r",
+	"xcache.count ": "                 1\r",
+	"xcache.slots ": "                8K\r",
+	"xcache.ttl   ": "                 0\r",
+	"xcache.gc_interval ": "           0\r",
+	"xcache.var_size  ": "            64M\r",
+	"xcache.var_count ": "             1\r",
+	"xcache.var_slots ": "            8K\r",
+	"xcache.var_ttl   ": "             0\r",
+	"xcache.var_maxttl   ": "          0\r",
+	"xcache.var_gc_interval ": "     300\r",
+	"xcache.test ": "                Off\r",
+	"xcache.readonly_protection ": " Off\r",
+	"xcache.mmap_path ": "    \"/Applications/MAMP/tmp/xcache\"\r",
+	"xcache.coredump_directory ": "   \"/Applications/MAMP/tmp/phpcore/\"\r",
+	"xcache.cacher ": "               On\r",
+	"xcache.stat   ": "               On\r",
+	"xcache.optimizer ": "           On\r",
+	"xcache.coverager": [
+		null
+	],
+	"xcache.coverager ": "          Off\r",
+	"xcache.coveragedump_directory ": " \"\"\r",
+	"xdebug": [
+		null
+	]
+}

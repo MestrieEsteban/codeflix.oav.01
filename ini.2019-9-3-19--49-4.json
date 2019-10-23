@@ -1,0 +1,104 @@
+{
+	"PHP": [
+		null
+	],
+	"Date": [
+		null
+	],
+	"Syslog": [
+		null
+	],
+	"mail function": [
+		null
+	],
+	"Java": [
+		null
+	],
+	"SQL": [
+		null
+	],
+	"ODBC": [
+		null
+	],
+	"MySQL": [
+		null
+	],
+	"MySQLi": [
+		null
+	],
+	"mSQL": [
+		null
+	],
+	"PostgresSQL": [
+		null
+	],
+	"Sybase": [
+		null
+	],
+	"Sybase-CT": [
+		null
+	],
+	"dbx": [
+		null
+	],
+	"bcmath": [
+		null
+	],
+	"browscap": [
+		null
+	],
+	"Informix": [
+		null
+	],
+	"Session": [
+		null
+	],
+	"MSSQL": [
+		null
+	],
+	"Assertion": [
+		null
+	],
+	"Ingres II": [
+		null
+	],
+	"Verisign Payflow Pro": [
+		null
+	],
+	"Sockets": [
+		null
+	],
+	"com": [
+		null
+	],
+	"Printer": [
+		null
+	],
+	"mbstring": [
+		null
+	],
+	"FrontBase": [
+		null
+	],
+	"Crack": [
+		null
+	],
+	"exif": [
+		null
+	],
+	"xcache-common": [
+		null
+	],
+	"xcache.admin": [
+		null
+	],
+	"xcache": [
+		null
+	],
+	"xcache.coverager": [
+		null
+	],
+	"xdebug": [
+		null
+	]
+}

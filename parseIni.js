@@ -1,18 +1,28 @@
-//( ͡° ͜ʖ ͡°)
-module.exports = function parseEnv(content) {
-
-    let output = {}
+//ʕ •ᴥ•ʔ
+module.exports = function parseIni(content) {
     let lines = content.split('\n')
-
+    output = {}
+    let i = 0
 
     for (line of lines) {
-        if (line.match(/^([\w]+)=(.+)/)) {
-            let key = line.split('=')
-            output[key[0]] = key[1].replace('\r', '')
+        i = []
+
+
+        if (line.match(/^\[/)) {
+
+            let key = line.split('[')
+            output[key[1].replace(']\r', '')] = i
+
         }
+
+        if (!line.match(/^;/)) {
+            let key1 = line.split('=')
+            i.push(output[key1[0]] = key1[1])
+            
+        }
+        i++
     }
 
     return JSON.stringify(output, null, '\t')
-
 
 }
